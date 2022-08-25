@@ -5,4 +5,4 @@ class BasketOfLeave(Leave):
         self.Applyingleave=Applyingleave
 
     def displayleave(self):
-        return self.LeaveBalance-self.Applyingleave
+        return self.Applyingleave
